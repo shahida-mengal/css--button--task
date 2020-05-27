@@ -1,0 +1,103 @@
+
+body{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOBpPVjqho6xwSBLL7lcXgvOCDRRKcqALJ19_uO-gkotPsO18Y&usqp=CAU);
+background-repeat: no-repeat;
+background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+#head{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, black, #03383d,pink, green, #8dff41,rgb(238, 238, 158),white);
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 12px;
+    cursor: pointer;
+}
+
+#cart-btn{
+    color: white;
+    background-color:  #c63928;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 60px;;
+    border: none;
+}
+#cart-btn:hover {
+background-color: #ff4b37;
+} 
+
+#start-btn{
+    font-family: 'Gugi', cursive;
+    color: #2a61fb;
+    font-size: 1.5em;
+    border: 2px solid #2a61fb;
+    background-color: #fdd835;
+    padding: 10px 15px;
+}
+#start-btn:hover{
+    background-color: #fb2ad8;
+    color: #96fd35;
+
+}
+#login-btn{
+    color: white;
+    background-image: linear-gradient(to right, #03383d, #8dff41);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+#login-btn:hover{
+    box-shadow: 0px 0px 5px darkblue;
+}
+#signup-btn{
+    color: #6749ea;
+    background-color: white;
+    border: 3px solid #6749ea;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#signup-btn:hover{
+    background-color: #6749ea;
+    color: white;
+}
+#subs-btn{
+    color: white;
+    background-image: linear-gradient(to bottom, #f9c433, #f5a332);
+    border: 3px solid #f59f31;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 7px grey;
+}
+#subs-btn:hover{
+    background-color: #638d00;
+    background-image: none;
+}
+#twitter{
+    font-size: 20px;
+    color: #37a1f3;
+    background-color: white;
+    border: 2px solid #37a1f3;
+    border-radius: 50px;
+    padding: 12px 15px; 
+}
+#twitter:hover{
+    background-color: #37a1f3;
+    color:white;
+}
+.para{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
